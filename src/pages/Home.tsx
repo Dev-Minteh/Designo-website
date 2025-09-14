@@ -210,7 +210,6 @@
 //     </div>
 //   );
 // }
-import React from "react";
 import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
 import Footer from "../components/Footer";
@@ -317,21 +316,6 @@ export default function Home() {
         </section>
 
         {/* CTA */}
-        {/* <section className="mt-14">
-          <div className="bg-[#E7816B] rounded-2xl p-8 md:p-10 text-white flex flex-col md:flex-row items-center justify-between gap-6">
-            <div className="max-w-xl">
-              <h3 className="text-2xl md:text-3xl font-semibold mb-2">Let's talk
-                about your project</h3>
-              <p className="text-sm md:text-base text-white/90">
-                Ready to take it to the next level? Contact us today and find out
-                how our expertise can help your business grow.
-              </p>
-            </div>
-            <button className="bg-white text-black/45 font-bold px-5 py-3 rounded-md shadow-sm">
-              GET IN TOUCH
-            </button>
-          </div>
-        </section> */}
        <CTA />
 
       </div>

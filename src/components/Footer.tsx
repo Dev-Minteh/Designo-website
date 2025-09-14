@@ -1,5 +1,3 @@
-import Navbar from "./Navbar"
-
 const Footer = () => (
     <footer className="pt-30 bg-black text-white px-6">
     <div className="max-w-[1100px] mx-auto">
